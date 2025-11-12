@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background-color: #f7f9fc;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.overall {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.overall p {
+  color: #777;
+  margin: 0;
+}
+
+.overall h2 {
+  font-size: 2rem;
+  color: #4a90e2;
+  margin: 5px 0;
+}
+
+.subjects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+

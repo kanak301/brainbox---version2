@@ -1,0 +1,44 @@
+.subject-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .subject-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+  .subject-card h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .subject-card p {
+    color: #555;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  
+  .subject-card button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.2s ease;
+  }
+  
+  .subject-card button:hover {
+    background-color: #3b78c2;
+  }
+  
