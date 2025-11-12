@@ -1,0 +1,25 @@
+brainbox/
+│
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   │
+│   ├── Components/
+│   │   ├── Navbar.js           → Navigation bar for the app.
+│   │   ├── Subject.js          → Displays a single subject card with progress and button.
+│   │   ├── Subject.css         → Styles for Subject.js component.
+│   │   ├── Progress.js         → Renders the animated progress bar.
+│   │   ├── Progress.css        → Styles for the progress bar.
+│   │   ├── ChecklistPage.js    → Checklist for each subject, updates progress when items are checked.
+│   │   │
+│   │   └── data/
+│   │       ├── mysubjects.js   → Base array of all subjects with studied and total hours.
+│   │       └── subjectData.js  → Imports data from mysubjects.js and provides it to App.js.
+│   │
+│   ├── App.css                 → General app styling.
+│   └── main.jsx                → Vite entry point; renders <App /> inside the DOM.
+│
+├── package.json                → Project dependencies and scripts.
+├── README.md                   → Project documentation.
+└── node_modules/               → Installed npm dependencies.
+
